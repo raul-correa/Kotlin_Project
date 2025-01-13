@@ -6,6 +6,9 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.ui.Modifier
@@ -29,10 +32,22 @@ class TermsActivity : ComponentActivity() {
                         stringResource(R.string.terms_conditions),
                         style = MaterialTheme.typography.headlineLarge
                     )
+                    Column(
+                        modifier = Modifier.verticalScroll(rememberScrollState())
+                    ){
+                        Text(
+                            stringResource(R.string.terms_conditions_text)
+                        )
 
-                    Text(
-                        stringResource(R.string.terms_conditions_text)
-                    )
+                        Button(onClick = {
+                            finish()
+                        }) {
+                            Text(
+                                stringResource(R.string.close)
+                            )
+                        }
+                    }
+
                 }
 
 
