@@ -1,5 +1,6 @@
 package com.example.sistema1231
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -17,7 +18,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.unit.dp
 import com.example.sistema1231.ui.theme.Sistema1231Theme
 
 class MainActivity : ComponentActivity() {
@@ -53,7 +53,9 @@ class MainActivity : ComponentActivity() {
                             //style = TextStyle(fontSize = 48.sp)
                             style = MaterialTheme.typography.displayLarge
                         );
-                    Button(onClick = {}) {
+                    Button(onClick = {
+                        startActivity(Intent(this@MainActivity, BeginActivity::class.java))
+                    }) {
                         Text(stringResource(R.string.begin));
                     }
                 }
