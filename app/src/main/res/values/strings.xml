@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Sistema 1231</string>
+    <string name="title_activity_begin">BeginActivity</string>
+    <string name="phrase">Veni, vici, vidi</string>
+    <string name="author">Julio Cesar</string>
+    <string name="greeting">Hola</string>
+    <string name="begin">Empezar</string>
+    <string name="copyright">2024 Todos los derechos reservados</string>
 </resources>

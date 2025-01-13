@@ -9,11 +9,15 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.dimensionResource
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
 import com.example.sistema1231.ui.theme.Sistema1231Theme
 
 class MainActivity : ComponentActivity() {
@@ -27,14 +31,15 @@ class MainActivity : ComponentActivity() {
 
                 //La disposición en columnas muestra los elementos uno encima de otro
                 Column (
-                    modifier = Modifier.fillMaxWidth(),
+                    modifier = Modifier.fillMaxWidth().padding(top = dimensionResource(R.dimen.space_4)),
                     horizontalAlignment = Alignment.CenterHorizontally
                 )
                 {
-                    Text("Veni, vici, vidi"
+                    Text(
+                        stringResource(R.string.phrase)
                         , style = MaterialTheme.typography.displaySmall
                     );
-                    Text("Julio Cesar");
+                    Text(stringResource(R.string.author));
                 }
 
                 Column (
@@ -43,21 +48,22 @@ class MainActivity : ComponentActivity() {
                     verticalArrangement = Arrangement.Center
                 )
                 {
-                    Text("Hola",
+                    Text(
+                        stringResource(R.string.greeting),
                             //style = TextStyle(fontSize = 48.sp)
                             style = MaterialTheme.typography.displayLarge
                         );
                     Button(onClick = {}) {
-                        Text("Empezar");
+                        Text(stringResource(R.string.begin));
                     }
                 }
 
                 //La disposición en caja superpone los elementos uno encima de otro
                 Box (
-                    modifier = Modifier.fillMaxSize(),
+                    modifier = Modifier.fillMaxSize().padding(bottom = dimensionResource(R.dimen.space_3)),
                     contentAlignment = Alignment.BottomCenter
                 ) {
-                    Text("2024 Todos los derechos reservados")
+                    Text(stringResource(R.string.copyright))
                 }
             }
         }
