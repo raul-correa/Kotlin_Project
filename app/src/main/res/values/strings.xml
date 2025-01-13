@@ -6,4 +6,23 @@
     <string name="greeting">Hola</string>
     <string name="begin">Empezar</string>
     <string name="copyright">2024 Todos los derechos reservados</string>
+    <string name="begin_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin scelerisque erat in eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis cursus ex, nec hendrerit</string>
+    <string name="terms">Términos</string>
+    <string name="home">Inicio</string>
+    <string name="title_activity_terms">TermsActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="terms_conditions">Términos y condiciones</string>
+    <string name="terms_conditions_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie lorem accumsan libero elementum sodales. Curabitur libero est, aliquam ac lobortis ut, posuere in sem. Aenean augue justo, efficitur mattis hendrerit ut, condimentum vel sem. Cras et volutpat urna. In finibus et ex a cursus. Proin lacinia rhoncus mauris, in efficitur eros vulputate at. Aenean consequat vestibulum cursus. Nam at volutpat velit.
+\n\n
+Quisque a tempor libero, a sodales dui. Integer vitae mi vitae justo gravida viverra. Vestibulum dapibus iaculis magna, quis facilisis dui fermentum eget. Suspendisse arcu lacus, pretium a egestas in, luctus sed risus. Nullam vel lectus eu nulla porttitor convallis. Cras suscipit dui id odio scelerisque lobortis. Maecenas commodo ultrices augue, non pellentesque ipsum. Vivamus imperdiet justo eu facilisis volutpat. Nunc porta ut arcu et suscipit. Quisque metus ipsum, feugiat eu eros eu, vehicula vulputate leo. Integer quis tortor in nibh gravida congue. Suspendisse malesuada nunc in commodo posuere.
+\n\n
+Ut sed viverra nisl. Phasellus sagittis mauris vel velit porta cursus. Integer vehicula augue id gravida pretium. Mauris faucibus, velit at gravida maximus, ex urna efficitur leo, at ornare neque lacus at nibh. Aenean sed lorem nec libero scelerisque aliquam. Pellentesque ornare tincidunt purus sit amet ultrices. Nunc faucibus venenatis dolor vel laoreet. Nunc quis aliquam urna. In et accumsan ipsum, id sodales enim. Ut sed eros porta, mollis libero ut, fringilla nisi. Donec eleifend interdum consequat.
+\n\n
+Fusce eleifend dignissim fermentum. Nam vel tincidunt dolor, ac tincidunt nulla. Fusce quis vulputate justo, et scelerisque erat. Phasellus aliquam augue imperdiet, lacinia nisl at, lacinia neque. Proin auctor tristique lacus quis laoreet. Quisque eleifend, arcu quis cursus sodales, purus mi pulvinar quam, et rutrum nibh nibh facilisis augue. Ut vitae placerat orci. Duis sed augue cursus, elementum orci ac, rhoncus erat. Fusce eget leo efficitur nisl ornare mattis eu volutpat metus. Mauris quis sollicitudin dui, nec finibus nibh.
+\n\n
+Integer ornare metus tortor, eget sodales nulla scelerisque nec. Integer quis lectus in mi eleifend sodales et id urna. Sed dapibus velit risus, ac mollis augue porttitor ac. Donec euismod bibendum lectus, ac ullamcorper nisl ullamcorper efficitur. Cras mollis dui a efficitur laoreet. Aliquam at lacus purus. Vivamus eleifend ante nibh, at tincidunt justo semper iaculis. Sed in dignissim ex. Curabitur vel nulla posuere, efficitur eros nec, finibus nunc.
+\n\n
+Donec blandit imperdiet nunc, sed euismod neque pulvinar vitae. Cras non sem leo. Integer faucibus, mauris ut convallis dapibus, ligula nisi vulputate quam, in viverra urna purus sed odio. Maecenas pulvinar elit non dolor aliquam, eget molestie velit pharetra. Quisque blandit consequat accumsan. Nulla nec mollis arcu. Sed non purus eget elit porta vehicula sit amet venenatis eros.
+\n\n
+Aenean dictum, nulla id sollicitudin efficitur, metus odio aliquet justo, id lobortis leo ante a arcu. Etiam neque felis, vehicula ut neque eu, ultricies ullamcorper massa. Donec tellus lacus, molestie ut nulla quis, pellentesque efficitur magna. Nulla posuere, tortor vel consectetur mattis, diam eros dapibus tortor, ut consectetur nibh arcu sed tellus. Nam dignissim blandit ipsum a maximus. Donec pharetra neque a purus convallis, in accumsan ipsum hendrerit. Quisque sit amet massa sed urna porta semper et non est. Cras ac eleifend turpis. Praesent tincidunt lorem ultricies, malesuada massa a, iaculis nunc. Maecenas ac neque scelerisque, viverra eros a, rutrum odio. Aliquam condimentum augue at sem lobortis, vel interdum odio faucibus. Nunc nisi mauris, gravida sit amet mauris in, sodales tempor lectus. Aliquam ac mi eget dui iaculis pretium.</string>
 </resources>
